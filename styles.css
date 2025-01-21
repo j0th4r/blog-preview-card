@@ -78,6 +78,11 @@ body {
     font-size: 1.5rem;
     font-weight: 800;
     margin: 0;
+    cursor: pointer;
+  }
+
+  h2:hover {
+    color: var(--bg);
   }
 
   .desc {
