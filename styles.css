@@ -5,7 +5,8 @@
   --text: #111111;
   --medium: 0.875rem;
   --mb-width: calc(327px - 1.5rem * 2);
-  --mb-height: calc(501px - 1.5rem * 2)
+  --mb-height: calc(501px - 1.5rem * 2);
+  --mb-card-width: 17.438rem;
 }
 
 body {
@@ -115,44 +116,44 @@ body {
   }
   
   .blog-img {
-    width: 279px;
+    width: var(--mb-card-width);
   }
 
   .blog-img img {
-    width: 279px;
-    height: 200px;
+    width: var(--mb-card-width);
+    height: 12.5rem;
   }
 
   .content {
-    width: 279px;
-    height: 173px;
+    width: var(--mb-card-width);
+    height: 10.938rem;
 
     .category {
-      width: 73px;
-      height: 26px;
+      width: 4.563rem;
+      height: 1.625rem;
     }
 
     .category p {
-      font-size: 12px;
-      padding: 2.5px 12px;
+      font-size: 0.75rem;
+      padding: 0.156rem 0.75rem;
     }
 
     .date {
-      font-size: 12px;
+      font-size: 0.75rem;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
 
     .desc {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   }
 }
 
 .attribution { 
-  font-size: 11px; 
+  font-size: 0.688rem; 
   text-align: center; 
   position: absolute;
   bottom: 0;
